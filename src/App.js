@@ -4,6 +4,7 @@ import "./App.css";
 
 function App() {
   const [movies, setMovies] = useState([]);
+  //Loading application
   const [isLoading, setIsLoading] = useState(false);
   const [ error, setError ] = useState( null );
 
