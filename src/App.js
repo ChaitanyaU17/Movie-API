@@ -6,6 +6,7 @@ function App() {
   const [movies, setMovies] = useState([]);
   //Loading application
   const [isLoading, setIsLoading] = useState(false);
+  //Error Handling
   const [ error, setError ] = useState( null );
 
   async function fetchMoviesHandler() {
