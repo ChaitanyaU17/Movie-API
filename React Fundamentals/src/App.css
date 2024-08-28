@@ -1,4 +1,4 @@
-section {
+/* section {
   margin: 1rem auto;
   width: 90%;
   max-width: 40rem;
@@ -26,4 +26,11 @@ button:hover,
 button:active {
   background-color: #460897;
   border-color: #460897;
+} */
+
+
+div {
+  display: flex;
+  align-items: center;
+  justify-items: center;
 }
