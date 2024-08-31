@@ -2,7 +2,9 @@
 // import MoviesList from './components/MoviesList';
 // import AddMovie from './components/AddMovie';
 import './App.css';
-import Counter from './tasks/Counter';
+import PositionXY from './tasks/PositionXY';
+// import Counter from './tasks/Counter';
+// import ProductDetails from './tasks/ProductDetails';
 
 // function App() {
 //   const [movies, setMovies] = useState([]);
@@ -98,8 +100,10 @@ import Counter from './tasks/Counter';
 
 function App() {
   return (
-    <div>
-      <Counter />
+    <div className='main-app'>
+      {/* <Counter /> */}
+      {/* <ProductDetails /> */}
+      <PositionXY />
     </div>
   )
 }

@@ -29,8 +29,3 @@ button:active {
 } */
 
 
-div {
-  display: flex;
-  align-items: center;
-  justify-items: center;
-}

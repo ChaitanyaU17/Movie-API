@@ -1,0 +1,15 @@
+.mainContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.title {
+    color: red;
+}
+
+.card {
+    flex-direction: column;
+    color: white;
+}
