@@ -2,7 +2,8 @@
 // import MoviesList from './components/MoviesList';
 // import AddMovie from './components/AddMovie';
 import './App.css';
-import PositionXY from './tasks/PositionXY';
+import Network from './tasks/Network';
+// import PositionXY from './tasks/PositionXY';
 // import Counter from './tasks/Counter';
 // import ProductDetails from './tasks/ProductDetails';
 
@@ -103,7 +104,8 @@ function App() {
     <div className='main-app'>
       {/* <Counter /> */}
       {/* <ProductDetails /> */}
-      <PositionXY />
+      {/* <PositionXY /> */}
+      <Network />
     </div>
   )
 }
