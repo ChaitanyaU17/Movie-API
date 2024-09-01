@@ -2,7 +2,8 @@
 // import MoviesList from './components/MoviesList';
 // import AddMovie from './components/AddMovie';
 import './App.css';
-import Network from './tasks/Network';
+import DragAndDrop from './tasks/DragAndDrop';
+// import Network from './tasks/Network';
 // import PositionXY from './tasks/PositionXY';
 // import Counter from './tasks/Counter';
 // import ProductDetails from './tasks/ProductDetails';
@@ -105,7 +106,8 @@ function App() {
       {/* <Counter /> */}
       {/* <ProductDetails /> */}
       {/* <PositionXY /> */}
-      <Network />
+      {/* <Network /> */}
+      <DragAndDrop />
     </div>
   )
 }
