@@ -53,7 +53,7 @@ const DragAndDrop = () => {
         onDrop={onDrop}
         onDragOver={onDragOver}
         style={{
-          border: "2px dashed #007bff",
+          border: "2px solid #007bff",
           padding: "20px",
           width: "400px",
           textAlign: "center",
